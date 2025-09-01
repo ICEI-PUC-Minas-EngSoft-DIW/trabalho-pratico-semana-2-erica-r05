@@ -1,0 +1,124 @@
+header, main, h1,p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f3e2f2;
+    border-radius: 10px;    
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #760085;
+    
+
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: #f7f0f5;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #f7f0f5;
+    
+}
+.botoes-cabecalho {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #d400ff; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+.botao:hover {
+    background-color: #8f00b3; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.foto-perfil{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.foto-perfil img{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.secao{
+    text-align: left;
+    background-color: #f7f0f5;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #760085;
+}
+.secao h2{
+    border-bottom: 2px solid #ac4caf;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+#formacao-academica ul{
+    list-style: disc; 
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#formacao-academica li{
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#cursos-complementares ul{
+    list-style: disc; 
+    padding: 0;
+    display: block;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#cursos-complementares li{
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#experiencia-profissional ul{
+    list-style: disc; 
+    padding: 0;
+    display: block;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#experiencia-profissional li{
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#habilidades ul {
+    list-style: disc; 
+    padding: 0;
+    display: block;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#habilidades li {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+}
