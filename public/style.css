@@ -8,7 +8,8 @@ header, main, h1,p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
     color: #760085;
-    
+   
+
 
 }
 h1{
@@ -20,34 +21,36 @@ p {
     font-size: 18px;
     margin-bottom: 10px;
     background-color: #f7f0f5;
-    
+   
 }
 .botoes-cabecalho {
-    display: flex; 
-    justify-content: center; 
-    gap: 15px; 
+    display: flex;
+    justify-content: center;
+    gap: 15px;
     margin-top: 20px;
     font-family: 'Arial', sans-serif;
     margin-bottom: 20px;
 }
 
+
 .botao {
     text-decoration: none;
-    background-color: #d400ff; 
-    color: white; 
-    padding: 10px 20px; 
-    border-radius: 25px; 
+    background-color: #d400ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
     font-weight: bold;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
 }
 .botao:hover {
-    background-color: #8f00b3; 
+    background-color: #8f00b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .foto-perfil{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+
 
 }
 .foto-perfil img{
@@ -57,6 +60,7 @@ p {
     border-radius: 50%;
     margin-bottom: 20px;
     margin-top: 20px;
+
 
 }
 .secao{
@@ -75,7 +79,7 @@ p {
     margin-top: 0px;
 }
 #formacao-academica ul{
-    list-style: disc; 
+    list-style: disc;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +91,7 @@ p {
     font-size: 16px;
 }
 #cursos-complementares ul{
-    list-style: disc; 
+    list-style: disc;
     padding: 0;
     display: block;
     flex-wrap: wrap;
@@ -99,7 +103,7 @@ p {
     font-size: 16px;
 }
 #experiencia-profissional ul{
-    list-style: disc; 
+    list-style: disc;
     padding: 0;
     display: block;
     flex-wrap: wrap;
@@ -111,7 +115,7 @@ p {
     font-size: 16px;
 }
 #habilidades ul {
-    list-style: disc; 
+    list-style: disc;
     padding: 0;
     display: block;
     flex-wrap: wrap;
